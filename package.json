@@ -1,0 +1,35 @@
+{
+  "name": "wine-searcher-firefox-ext",
+  "version": "1.0.0",
+  "description": "Adds wine-searcher.com as a search engine and context menu action in Firefox",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "wine-searcher",
+    "firefox"
+  ],
+  "author": "Weffe <6274727+Weffe@users.noreply.github.com>",
+  "license": "MPL2.0",
+  "devDependencies": {
+    "web-ext": "^7.11.0",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "lint": "web-ext lint",
+    "start": "web-ext run",
+    "build": "web-ext build",
+    "deploy": "web-ext sign"
+  },
+  "webExt": {
+    "sourceDir": "./src",
+    "artifactsDir": "./dist",
+    "run": {
+      "devtools": true
+    },
+    "build": {
+      "overwriteDest": true
+    }
+  }
+}
