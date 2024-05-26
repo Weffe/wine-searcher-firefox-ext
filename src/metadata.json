@@ -2,6 +2,7 @@
     "version": {
         "license": "MPL2.0"
     },
+    "summary": "Adds wine-searcher.com as a search engine and context menu action",
     "categories": {
         "firefox": [
             "shopping"
@@ -9,9 +10,9 @@
     },
     "requires_payment": false,
     "homepage": {
-        "en-US": "http://example.org?lang=en-US"
+        "en-US": "https://github.com/Weffe/wine-searcher-firefox-ext"
     },
     "support_email": {
-        "en-US": "support@example.org"
+        "en-US": "6274727+Weffe@users.noreply.github.com"
     }
 }
